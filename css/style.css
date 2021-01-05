@@ -29,3 +29,15 @@ a {
     background-size: cover;
     height: 465px;
 }
+
+.logo {
+    float: left;
+    margin: 19px 17px 0 0;
+}
+
+.slogan {
+    float: left;
+    margin-top: 22px;
+    font: italic 16px "Times New Roman", Times, Georgia, serif;
+    color: rgba(255, 255, 255, .35);
+}
