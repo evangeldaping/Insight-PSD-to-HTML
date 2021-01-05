@@ -23,3 +23,9 @@ a {
 .middle {
     background: #fff;
 }
+
+.hero {
+    background: #333 url(../images/bg-hero.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 465px;
+}
