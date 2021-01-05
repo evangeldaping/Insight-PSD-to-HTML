@@ -102,3 +102,48 @@ body {
     font: 16px 'Open Sans', Arial, Helvetica, sans-serif;
     color: #55606e;
 }
+
+.hero {
+    background: #333 url(../images/bg-hero.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 465px;
+    color: #fff;
+    text-align: center;
+    padding-top: 31px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    font-weight: bold;
+    margin: 0 0 30px;
+}
+.hero p {
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 600;
+    max-width: 715px;
+    margin: 0 auto 51px;
+}
+.hero p strong {
+    font-weight: 700;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 4px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0 55px;
+    margin: 0 11px;
+}
+.btn-green {
+    background-color: #83c129;
+    box-shadow: 0 4px 0 #518719;
+}
+.btn-blue {
+    background-color: #068fd5;
+    box-shadow: 0 4px 0 #046b9f;
+}
