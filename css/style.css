@@ -41,3 +41,35 @@ a {
     font: italic 16px "Times New Roman", Times, Georgia, serif;
     color: rgba(255, 255, 255, .35);
 }
+
+.nav {
+    float: right;
+}
+
+.nav li {
+    float: left;
+    border-left: 1px solid #2c323d;
+}
+
+.nav a {
+    display: block;
+    line-height: 62px;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav a {
+    display: block;
+    line-height: 62px;
+    padding: 0 24px 0 53px;
+    color: #fff;
+}
+
+body {
+    font: 16px 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #55606e;
+}
