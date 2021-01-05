@@ -49,6 +49,7 @@ a {
 .nav li {
     float: left;
     border-left: 1px solid #2c323d;
+	list-style-type:none;
 }
 
 .nav a {
@@ -67,6 +68,34 @@ a {
     line-height: 62px;
     padding: 0 24px 0 53px;
     color: #fff;
+}
+
+.nav a:hover {
+    background-color: #13151a;
+}
+
+.nav a:after {
+    content: '';
+    background: url(../images/nav-icons.png) no-repeat;
+    position: absolute;
+    top: 22px;
+/*    left: 24px;*/
+}
+
+.nav .how-it-works a:after {
+    background-position: 0 -1px;
+    width: 19px;
+    height: 18px;
+}
+.nav .sign-up a:after {
+    background-position: -20px -1px;
+    width: 19px;
+    height: 18px;
+}
+.nav .login a:after {
+    background-position: -43px -2px;
+    width: 14px;
+    height: 17px;
 }
 
 body {
